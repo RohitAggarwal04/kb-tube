@@ -1,0 +1,24 @@
+import React from "react";
+import "../../assets/css/VideoNotAvailable.css";
+import unavailable_video from '../@/public/images/unavailable_video.png';
+
+const VideosNotFound2 = ({ fetchVideo }) => {
+
+    return (
+        <div className="video-not-available">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <img src={unavailable_video} alt="There is no video available" className="img-fluid" />
+                    </div>
+                    <div className="col-12">
+                        <h1>There is no video available.</h1>
+                        <button  onClick={fetchVideo} className="btn btn-go-home">HOME</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+};
+
+export default VideosNotFound2;

@@ -1,0 +1,49 @@
+.video-not-available {
+
+    width: 100%;
+    height: calc(100vh - 200px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+    img {
+        margin-bottom: 24px;
+        align-self: center;
+        width: 75vw;
+        height: auto;
+        max-width: 280px;
+    }
+
+
+    h1 {
+        font-family: "Roboto", "Arial", sans-serif;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+        font-weight: 400;
+    }
+
+    .btn.btn-go-home {
+        color: #065fd4;
+        border-color: rgba(231, 231, 231, 0.5);
+        padding: 0 15px;
+        border-width: 1px;
+        border-style: solid;
+        height: 36px;
+        font-size: 14px;
+        line-height: 36px;
+        border-radius: 18px;
+        position: relative;
+        margin: 0;
+        white-space: nowrap;
+        min-width: 0;
+        text-transform: none;
+        font-family: "Roboto", "Arial", sans-serif;
+        flex: 1;
+        flex-basis: 1e-9px;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}

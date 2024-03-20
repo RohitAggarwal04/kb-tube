@@ -1,0 +1,97 @@
+:root {
+    --body-color: #060C1F;
+    --active-color: #09ff8d;
+    --active-two: #09ff8cb3;
+    --active-3: rgb(11, 235, 130);
+    --theme-one: #88B6FF;
+    --theme-two: #1877F2;
+    --button-one: #F3486A;
+    --button-two: #FF6600;
+    --header: #202A39;
+    --subheader: #161F2C;
+    --startable: #FA5500;
+    --white: #fff;
+    --black: #000;
+    --white-color: #f7f7f7;
+    --black-color: #cdcdcd;
+    --social-box: #283968;
+    --slidebox: #141C33;
+    --textcolor: #8A92AB;
+    --pointbox: #283352;
+    --betslip: #636B82;
+    --multiborder: #7A8899;
+    --signbet: #20283F;
+    --signborder: #526271;
+    --leftpreborder: #4C546A;
+    --preactive: #0F62E6;
+    --place: #858B9D;
+    --paycheck: #40507C;
+
+    // Theme icon css
+    --bg-theme-1: var(--active-color);
+    --bg-theme-2: var(--active-two);
+
+    --icon-color: var(--bg-theme-1);
+    --swiper-theme-color: var(--bg-theme-1);
+    --swiper-navigation-sides-offset: 0;
+    --bs-heading-color: var(--white-color);
+    --bs-modal-color: #fff;
+}
+
+
+
+body {
+    --sidebar-width: 270px;
+    --bg-theme: var(--body-color);
+    --bg-search: var(--button-two);
+    --bg-search-hover: linear-gradient(114.26deg, #F3486A 13.41%, #F3486A 87.24%);
+    --search-color: #fff;
+    --search-color-hover: #fff;
+    --bg-tag: #181818;
+    --border-theme: var(--header);
+    --border-theme2: #797979;
+    --border-theme3: #555;
+    --border-theme4: #333;
+    --color-444: #444;
+    --bg-secondary: var(--bg-theme-1);
+    --color-text: var(--white);
+    --color-shorts: var(--white);
+    --swiper-theme-color: var(--bg-theme-1);
+    --bs-heading-color: var(--white-color);
+    --bs-modal-color: #fff;
+    --bs-nav-link-color: var(--icon-color);
+}
+
+body.light {
+    --bg-secondary: var(--bg-theme-1);
+    --bg-theme: var(--body-color);
+    --bg-tag: rgba(0, 0, 0, 0.05);
+    --bg-search: var(--button-two);
+    --bg-search-hover: linear-gradient(114.26deg, #F3486A 13.41%, #F3486A 87.24%);
+    --search-color: #fff;
+    --search-color-hover: #fff;
+    --border-theme: var(--header);
+    --border-theme2: #797979;
+    --border-theme3: #555;
+    --border-theme4: #333;
+    --color-444: #444;
+    --color-text: #151515;
+    --bs-light-rgb: 0, 0, 0;
+    --bs-white-rgb: 0, 0, 0;
+    --bs-nav-link-color: #000;
+    --color-shorts: var(--white);
+    --swiper-theme-color: var(--bg-theme-1);
+    --bs-heading-color: var(--white-color);
+
+    --body-color:hsl(0, 0%, 98%);
+    --header:#eaeaea;
+    --subheader:#dadada;
+    --theme-one: var(--theme-two);
+    --bg-theme-1: var(--active-3);
+    --slidebox:#ebebeb;
+    --white:#000;
+    --black:#fff;
+    --white-color:#000;
+    --black-color:#000;
+    --bs-modal-color: #000;
+}
